@@ -6,7 +6,7 @@
     
     list-style: none;
     margin: 0; 
-    background: #082736;
+    background: black;
   }
   
   .navigation a {
@@ -19,7 +19,7 @@
   }
   
   .navigation a:hover {
-    background: #ff7582;
+    background: hsl(340, 100%, 79%);
   }
   
   @media all and (max-width: 800px) {
@@ -44,20 +44,46 @@
     }
   }
   
-  
     
     /*body volledig scherm*/
     body {
       margin: 0px;
     }
 
+        /* Page Content */
+        .content {
+            padding: 20px;
+        
+        }
+        
+
+    /* Header/Logo Title */
+    .header {
+        padding: 0px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-family: cursive;
+        background: black;
+      }
+    
+    
+    /*Header Image*/
+    .header-image {
+        background-image: url("img/sunset-water.avif");
+        padding: 25px;
+        height: 350px;
+        background-position: 25% 70%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 0px solid blue;
+    } 
 
 
-  
   /*Main*/
     .main-content{
       text-align: center;
-      font-family: bad script;
+      font-family: baloo tammudu2;
       font-size: 20px;
       color: white;
   }
@@ -71,86 +97,74 @@
  }
 
 
-
   .main-content {
   background-color: black;
   border: 20px solid black;
   }
 
 
- /*Foto ronde vorm*/
-  img {
-    border-radius: 10%;
-  
-  }
-  
+/*Contact form*/
+  body {
+    font-family: baloo tammudu2;
+ }
 
-    
-    /* Header/Logo Title */
-    .header {
-      padding: 0px;
-      text-align: center;
-      color: white;
-      font-size: 30px;
-      font-family: cursive;
-      background: black;
-    }
-
-
-    
-    /* Page Content */
-    .content {
-      padding: 20px;
-  }
-  
-  
-  
-
-  
-  /*Header Image*/
-  .header-image {
-      background-image: url("img/sunset.avif");
-      padding: 25px;
-      height: 350px;
-      background-position: 25% 70%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border: 0px solid blue;
-  } 
-  
-    
-
-
-  /*image Next to Text*/
-  img {
-    float: left;
-    margin: 20px;
-  }
-
-
-
-
-  
-  /*Container Image and Text*/
-  * {
+* {
     box-sizing: border-box;
-  }
+ }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  font-family: baloo tammudu2;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  font-family: bad script;
+  font-size: 25px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: hsl(340, 100%, 79%);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: black;
+  border: 2px solid white;
+  padding: 20px;
+}
+
+/*Avatar Image*/
+.avatarImage {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border:5px solid white;
+  margin: 10px;
+}
 
 
 
-
-  
       /*Footer*/
       .footer {
         padding: 20px;
         font-family: cursive;
         font-size: 20px;
         text-align: center;
-        background: #ff7582;
-  
-    }
-    address {
-        display: block;
-        font-family: arial;
-        font-size: 20px;
+        background: hsl(340, 100%, 79%);
     }
