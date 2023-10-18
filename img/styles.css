@@ -6,7 +6,7 @@
     
     list-style: none;
     margin: 0; 
-    background: #082736;
+    background: black;
   }
   
   .navigation a {
@@ -19,7 +19,7 @@
   }
   
   .navigation a:hover {
-    background: #ff7582;
+    background: hsl(262, 28%, 60%);
   }
   
   @media all and (max-width: 800px) {
@@ -44,20 +44,22 @@
     }
   }
   
-  
     
     /*body volledig scherm*/
     body {
       margin: 0px;
     }
 
+        /* Page Content */
+        .content {
+            padding: 20px;
+        }
+        
 
-
-  
   /*Main*/
     .main-content{
       text-align: center;
-      font-family: bad script;
+      font-family: baloo tammudu2;
       font-size: 20px;
       color: white;
   }
@@ -71,21 +73,12 @@
  }
 
 
-
   .main-content {
   background-color: black;
   border: 20px solid black;
   }
 
 
- /*Foto ronde vorm*/
-  img {
-    border-radius: 10%;
-  
-  }
-  
-
-    
     /* Header/Logo Title */
     .header {
       padding: 0px;
@@ -95,21 +88,11 @@
       font-family: cursive;
       background: black;
     }
-
-
-    
-    /* Page Content */
-    .content {
-      padding: 20px;
-  }
   
-  
-  
-
   
   /*Header Image*/
   .header-image {
-      background-image: url("img/sunset.avif");
+      background-image: url("img/smoke.avif");
       padding: 25px;
       height: 350px;
       background-position: 25% 70%;
@@ -117,36 +100,30 @@
       background-size: cover;
       border: 0px solid blue;
   } 
-  
-    
 
 
-  /*image Next to Text*/
-  img {
-    float: left;
-    margin: 20px;
-  }
+    /*Tabel*/
+    caption { 
+        font-family: bad script;
+        font-size: 25px; 
+      }
 
 
+    table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        margin-left:auto;
+        margin-right:auto;
+      }
 
 
-  
-  /*Container Image and Text*/
-  * {
-    box-sizing: border-box;
-  }
-
-
-
-
-  
       /*Footer*/
       .footer {
         padding: 20px;
         font-family: cursive;
         font-size: 20px;
         text-align: center;
-        background: #ff7582;
+        background: hsl(262, 28%, 60%);
   
     }
     address {
